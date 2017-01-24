@@ -8,18 +8,6 @@ namespace SimpleShutter
     {
         GameObject[] enemies;
 
-        // Use this for initialization
-        void Start()
-        {
-            SearchForEnemies();
-        }
-
-        // Update is called once per frame
-        void Update()
-        {
-
-        }
-
         void SearchForEnemies()
         {
             enemies = GameObject.FindGameObjectsWithTag("Enemy");
